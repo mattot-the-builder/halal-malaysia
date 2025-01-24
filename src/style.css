@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+:root {
+  --primary: 189 94% 43%;
+  --primary-foreground: 192 91% 36%;
+
+  --light-foreground: 240 5% 96%;
+}
 
 body {
   background: URL("/images/hq-jakim.jpg") no-repeat center center fixed;
@@ -27,4 +34,17 @@ a {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+.btn-primary {
+  background-color: hsl(var(--primary));
+
+  &:hover,
+  &:active {
+    background-color: hsl(var(--primary-foreground)) !important;
+  }
+}
+
+.btn-light:hover {
+  background-color: hsl(var(--light-foreground));
 }
