@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 body {
   background: URL("/images/hq-jakim.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.krona-one-bold {
+  font-family: "Krona One", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 a {
