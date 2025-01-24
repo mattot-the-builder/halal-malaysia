@@ -1,9 +1,5 @@
-import './style.css'
 import './scss/styles.scss'
 import * as bootstrap from 'bootstrap'
+import './style.css'
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <h1>app</h1>
-  </div>
-`
+console.log('halal-malaysia')
